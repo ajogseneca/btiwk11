@@ -1,3 +1,5 @@
+import { render } from '@testing-library/react';
+
 test("renders at least one link to https://github.com in the first child of 'main' ", () => {
   const {container} = render(<Home />);
 

@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import Home from '@/pages';
 
-test("renders at least one link to https://github.com in the first child of 'main' ", () => {
+test("renders at least one link to https://github.com/vvo/iron-session in the first child of 'main' ", () => {
   const { getByRole } = render(<Home />);
 
   // Get the main element
@@ -22,7 +22,7 @@ test("renders at least one link to https://github.com in the first child of 'mai
   // Count the number of links that include "https://github.com"
   let githubLinks = 0;
   childLinks.forEach(link => {
-    if (link.href.includes("https://github.com")) {
+    if (link.href.includes("https://github.com/vvo/iron-session")) {
       githubLinks++;
     }
   });

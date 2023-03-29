@@ -9,7 +9,7 @@ export default function Home() {
           <Image src="/GitHub-Mark-32px.png" width="32" height="32" alt="" />
         </span>
         <a href="https://github.com/vvo/iron-session">iron-session</a> -
-        Authentication example
+        Authentication examples
       </h1>
 
       <p>
